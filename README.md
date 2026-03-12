@@ -4,7 +4,7 @@ A deep learning computer vision project that classifies plant diseases from leaf
 
 ---
 
-# 📌 Project Overview
+# Project Overview
 
 Plant diseases significantly impact agricultural productivity and global food security. Early and accurate detection of plant diseases can help farmers take timely action to reduce crop losses.
 
@@ -14,7 +14,7 @@ The model leverages **transfer learning**, utilizing a pretrained convolutional 
 
 ---
 
-# 📊 Dataset
+# Dataset
 
 This project uses the **PlantVillage Dataset**, a widely used dataset for plant disease recognition tasks.
 
@@ -32,7 +32,7 @@ https://www.kaggle.com/datasets/mohitsingh1804/plantvillage
 
 ---
 
-# 🧠 Model Architecture
+# Model Architecture
 
 The model uses **MobileNetV2**, a lightweight convolutional neural network designed for efficient image classification.
 
@@ -61,7 +61,7 @@ Output Layer (38 Classes)
 
 ---
 
-# 🖼️ Image Preprocessing & Data Augmentation
+# Image Preprocessing & Data Augmentation
 
 To improve model generalization, several preprocessing and augmentation techniques were applied.
 
@@ -81,7 +81,7 @@ These techniques help the model become more robust to variations in orientation,
 
 ---
 
-# ⚙️ Training Configuration
+# Training Configuration
 
 | Parameter     | Value            |
 | ------------- | ---------------- |
@@ -97,7 +97,7 @@ The model was trained using the **PyTorch deep learning framework**.
 
 ---
 
-# 📈 Evaluation Metrics
+# Evaluation Metrics
 
 Model performance was evaluated using several classification metrics:
 
@@ -111,7 +111,7 @@ These metrics provide a comprehensive evaluation of the model’s performance ac
 
 ---
 
-# 📊 Results
+# Results
 
 The trained model demonstrates strong performance in classifying plant diseases.
 
